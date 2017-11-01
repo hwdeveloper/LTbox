@@ -13,4 +13,19 @@ class AccountController extends CI_Controller {
 	{
 		$this->load->view('account');
 	}
+
+
+	public function checkUser(){
+		//1,接受参数
+      $FirstName = $_POST['FirstName'];
+		$LastName = $_POST['LastName'];
+		$email = $_POST['email'];
+		$password = $_POST['password'];
+
+		//2，根据$LastName  和$ email  去获得 数据库保存的密码
+
+
+		echo "";
+
+	}
 }
