@@ -11,7 +11,7 @@ class HomeController extends CI_Controller {
 
 	public function index()
 	{
-		echo "hello";
-		//$this->load->view('home');
+
+		$this->load->view('home');
 	}
 }
